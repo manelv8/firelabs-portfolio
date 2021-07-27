@@ -6,13 +6,8 @@
 
   display: flex;
   flex-direction: column;
-  align-items: center;
-
 }
 
-.section .wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 94px;
-  margin-top: 60px
+.section .main-title {
+  margin-bottom: 60px;
 }
