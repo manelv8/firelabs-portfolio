@@ -11,3 +11,7 @@
 .section-component .main-title {
   margin-bottom: 60px;
 }
+
+.section-component.-bgBlack{
+  background-color: #000;
+}
