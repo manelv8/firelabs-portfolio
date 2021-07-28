@@ -15,3 +15,7 @@
 .section-component.-bgBlack{
   background-color: #000;
 }
+
+.section-component.-borderSalmon {
+  border-bottom: 10px solid #f25a70;
+}
