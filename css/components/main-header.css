@@ -1,4 +1,12 @@
-.action {
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7c5e99;
+  padding: 10px 20px;
+  border-bottom: 10px solid #000;
+}
+
+.main-header .action {
   display: inline-flex;
   align-items: center;
   color:#FFF;
@@ -8,7 +16,7 @@
   margin-right: 30px;
 }
 
-.action::before{
+.main-header .action::before{
   content: '';
   background-color: #F25A70;
   height: 10px;
