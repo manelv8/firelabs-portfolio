@@ -1,8 +1,8 @@
 .wrapper-carrossel {
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   position: relative;
-  padding: 0 100px;
+  padding: 0 85px;
 }
 
 .wrapper-carrossel .button-arrow{
