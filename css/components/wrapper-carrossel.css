@@ -5,6 +5,16 @@
   padding: 0 85px;
 }
 
+.wrapper-carrossel::after{
+  content:'';
+  position:absolute;
+  left: 0;
+  top:40px;
+  height: 5px;
+  width: 100%;
+  background-color: black;
+}
+
 .wrapper-carrossel .button-arrow{
   position: absolute;
   top:115px;
