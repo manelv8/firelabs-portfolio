@@ -20,3 +20,6 @@
   transform: translateX(12px);
 }
 
+.button-arrow.-left::before{
+  transform: rotate(180deg) translateX(6px);
+}
