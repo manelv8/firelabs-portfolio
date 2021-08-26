@@ -1,4 +1,21 @@
 .wrapper-carrossel {
   display: flex;
   flex-direction: row;
+  position: relative;
+  padding: 0 100px;
+}
+
+.wrapper-carrossel .button-arrow{
+  position: absolute;
+  top:115px;
+  transform: translateY(50%);
+  
+}
+
+.wrapper-carrossel .button-arrow.-left{
+  left:15px
+}
+
+.wrapper-carrossel .button-arrow.-right{
+  right:15px
 }
