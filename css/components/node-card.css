@@ -1,8 +1,9 @@
 .node-card {
 display: flex;
-position: relative;
 flex-direction: column;
 align-items: center;
+position: relative;
+margin-right: 10px;
 }
 
 .node-card::before {
@@ -26,8 +27,16 @@ align-items: center;
 .node-card .logo {
   display: flex;
   align-items: center;
-  height: 140px;
+  height: 150px;
   border: 5px solid #000;
   padding: 0 20px;
   background-color: #Ceb02a;
+}
+.node-card.-clean .logo{
+
+  padding: 0;
+}
+
+.node-card.-bgSalmon .logo{
+  background-color: #f25a70;
 }
