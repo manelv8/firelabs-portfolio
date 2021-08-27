@@ -26,6 +26,8 @@
   <link rel="stylesheet" href="./css/components/button-arrow.css">
   <link rel="stylesheet" href="./css/components/node-card.css">
   <link rel="stylesheet" href="./css/components/wrapper-carrossel.css">
+  <link rel="stylesheet" href="./css/components/main-footer.css">
+  <link rel="stylesheet" href="./css/components/main-label.css">
   <title>Portifolio Feliz</title>
 </head>
 <body>
@@ -202,9 +204,29 @@
         </div>
         <button class="button-arrow -right"><span class="content">voltar</span></button>
       </div>
-
-
     </section>
+
+    <section class="section-component -bgGray">
+      <h1 class="main-title -second">Contato</h1>
+
+      <form class="wrapper-text">
+        <label class="main-label" for="name">Nome</label>
+        <input id="name" type="text"/>
+
+        <label class="main-label" for="email">Email</label>
+        <input id="email" type="email" />
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea id="message"> </textarea>
+
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+    <footer class="main-footer">
+      <a  class="action" href="#"><img src="./assets/images/icon-twitter.png" alt=""></a>
+      <a  class="action" href="#"><img src="./assets/images/icon-youtube.png" alt=""></a>
+      <a  class="action" href="#"><img src="./assets/images/icon-discord.png" alt=""></a>
+    </footer>
     <script src="./js/components/main-carrossel.js"></script>
   </body>
   </html>

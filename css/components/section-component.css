@@ -25,6 +25,9 @@
 .section-component.-bgPurple{
   background-color :#7C5E99;
 }
- .section-component.-borderBlack{
+.section-component.-borderBlack{
   border-bottom: 10px solid #000;
- }
+}
+.section-component.-bgGray{
+  background-color :#3a4042;
+}
