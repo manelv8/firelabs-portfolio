@@ -1,0 +1,11 @@
+.wrapper-form{
+  margin:0 80px;
+}
+
+.wrapper-form .main-input{
+  margin-bottom: 20px;
+}
+
+.wrapper-form .main-input.-textarea{
+  margin-bottom: 40px;
+}
