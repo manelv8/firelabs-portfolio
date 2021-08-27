@@ -15,3 +15,7 @@
   transform: scale(1.08);
    
 }
+
+.button-component.-full {
+  width: 100%;
+}
